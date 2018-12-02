@@ -3,8 +3,8 @@ alex = alexnet;
 layers = alex.Layers;
 
 %modify layer to   136 categories
-layers(39) = fullyConnectedLayer(136);  
-layers(41) = classificationLayer;
+layers(23) = fullyConnectedLayer(136);  
+layers(25) = classificationLayer;
 
 %set up for training
 allImages = imageDatastore('Dataset2' , 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
@@ -25,7 +25,7 @@ for i = 1:k
     testImages = imageDatastore(partStores{test_idx}, 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
     trainingImages = imageDatastore(cat(1, partStores{train_idx}), 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
 
-    opts = trainingOptions('sgdm','InitialLearnRate' , 0.001, 'MaxEpochs', 50, 'MiniBatchSize',64, 'ExecutionEnvironment','parallel');
+    opts = trainingOptions('sgdm','InitialLearnRate' , 0.001, 'MaxEpochs', 50, 'MiniBatchSize',32, 'ExecutionEnvironment','gpu');
     myNet= trainNetwork(trainingImages, layers,opts);
     
     %Measure Network accuracy
