@@ -11,7 +11,7 @@ allImages = imageDatastore('Dataset2' , 'IncludeSubfolders', true, 'LabelSource'
 [trainingImages, testImages] = splitEachLabel(allImages, 0.8, 'randomize');
 
 %re-train the network
-opts = trainingOptions('sgdm','InitialLearnRate' , 0.001, 'MaxEpochs', 50, 'MiniBatchSize',64, 'ExecutionEnvironment','parallel');
+opts = trainingOptions('sgdm','InitialLearnRate' , 0.001, 'MaxEpochs', 50, 'MiniBatchSize',32, 'ExecutionEnvironment','gpu');
 myNet= trainNetwork(trainingImages, layers,opts);
 
 %Measure Network accuracy
