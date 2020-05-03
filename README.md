@@ -6,6 +6,7 @@ This repsositiry contains code for our paper:
 
 The dataset can be found here: http://www.cs.rug.nl/~george/cattle-recognition/
 
+If you find this paper or code useful, we encourage you to cite the paper. BibTeX:
 
       @InProceedings{Bhole2019,
       author=”Bhole, Amey and Falzon, Owen and Biehl, Michael and Azzopardi, George”,
