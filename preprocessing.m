@@ -1,4 +1,4 @@
-function [RGB, RGB1, im4, im8] = preprocessingcheckfinal(t, R, R1)
+function [RGB, RGB1, im4, im8] = preprocessing(t, R, R1)
 % Convert to gray scale
 T = rgb2gray(t);
 T1 = imresize(T,[361 488]);
