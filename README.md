@@ -10,7 +10,7 @@ The dataset can be found here:
 
 http://www.cs.rug.nl/~george/cattle-recognition/
 
-https://dataverse.nl/dataset.xhtml;jsessionid=c3c07bd6aa8338c21c76567ff65f?persistentId=doi%3A10.34894%2FO1ZBSA&version=&q=&fileTypeGroupFacet=&fileAccess=&fileSortField=name&fileSortOrder=desc
+https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/O1ZBSA
 
 ## Abstract
 
