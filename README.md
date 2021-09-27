@@ -43,9 +43,9 @@ The data set consists of 1237 pairs of thermal and RGB (640 x 320 pixels and 320
 
 The dataset can be found here: 
 
-Link 1: http://www.cs.rug.nl/~george/cattle-recognition/
+- Link 1: http://www.cs.rug.nl/~george/cattle-recognition/
 
-Link 2: https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/O1ZBSA
+- Link 2: https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/O1ZBSA
 
 ## Performance 
 
