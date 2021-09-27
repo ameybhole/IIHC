@@ -7,7 +7,7 @@ This repsositiry contains code for our paper:
 #### Summary
 
 * [Abstract](#Abstract)
-* [Repository Structure](#Repository Structure)
+* [Repository Structure](#Repository-Structure)
 * [Dataset](#Dataset)
 * [Performance](#Performance)
 * [Citation](#Citation)
